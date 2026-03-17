@@ -4,576 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Павел Цыкунов · CV</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body
-    style="
-      font-family:
-        &quot;Inter&quot;,
-        -apple-system,
-        BlinkMacSystemFont,
-        &quot;Segoe UI&quot;,
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif;
-      background: #0b1a33;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 2rem 1rem;
-      line-height: 1.5;
-      color: #1e293b;
-      margin: 0;
-      box-sizing: border-box;
-    "
-  >
-    <div
-      style="
-        max-width: 1100px;
-        width: 100%;
-        background: white;
-        border-radius: 32px;
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-        display: grid;
-        grid-template-columns: 32% 68%;
-        overflow: hidden;
-      "
-    >
-      <aside
-        style="
-          background: #0b1a33;
-          color: #f8fafc;
-          padding: 2rem 1.8rem;
-          display: flex;
-          flex-direction: column;
-          gap: 2rem;
-        "
-      >
-        <figure
-          style="
-            text-align: center;
-            margin-bottom: 0.5rem;
-            position: relative;
-            z-index: 1;
-            margin: 0;
-          "
-        >
+  <body>
+    <div class="cv">
+      <aside class="cv__sidebar">
+        <figure class="avatar">
           <img
-            style="
-              display: block;
-              width: 140px;
-              height: 140px;
-              border-radius: 50%;
-              margin: 0 auto;
-              border: 4px solid #2dd4bf;
-              object-fit: cover;
-            "
+            class="avatar__image"
             src="assets/avatar.jpg"
             alt="Павел Цыкунов"
           />
         </figure>
 
-        <nav>
-          <h2
-            style="
-              font-size: 1.1rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              margin-bottom: 1.2rem;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-top: 0;
-            "
-          >
-            Контакты
-          </h2>
-          <address style="font-style: normal; margin: 0">
-            <ul style="list-style: none; padding: 0; margin: 0">
-              <li
-                style="
-                  background: rgba(255, 255, 255, 0.05);
-                  border-radius: 12px;
-                  padding: 0.8rem 1rem;
-                  margin-bottom: 0.5rem;
-                  border: 1px solid rgba(45, 212, 191, 0.15);
-                  transition: background 0.2s;
-                "
-              >
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    gap: 1rem;
-                    font-size: 0.95rem;
-                    color: #ffffff;
-                  "
-                >
-                  <span
-                    style="
-                      font-size: 1.2rem;
-                      min-width: 24px;
-                      text-align: center;
-                    "
-                    >📞</span
-                  >
-                  <a
-                    href="tel:+375333086376"
-                    style="
-                      color: #ffffff;
-                      text-decoration: none;
-                      border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
-                    "
-                    >+375 33 308 63 76</a
-                  >
-                </div>
-              </li>
-              <li
-                style="
-                  background: rgba(255, 255, 255, 0.05);
-                  border-radius: 12px;
-                  padding: 0.8rem 1rem;
-                  margin-bottom: 0.5rem;
-                  border: 1px solid rgba(45, 212, 191, 0.15);
-                "
-              >
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    gap: 1rem;
-                    font-size: 0.95rem;
-                    color: #ffffff;
-                  "
-                >
-                  <span
-                    style="
-                      font-size: 1.2rem;
-                      min-width: 24px;
-                      text-align: center;
-                    "
-                    >✉️</span
-                  >
-                  <a
-                    href="mailto:ascenderr11@gmail.com"
-                    style="
-                      color: #ffffff;
-                      text-decoration: none;
-                      border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
-                    "
-                    >ascenderr11@gmail.com</a
-                  >
-                </div>
-              </li>
-              <li
-                style="
-                  background: rgba(255, 255, 255, 0.05);
-                  border-radius: 12px;
-                  padding: 0.8rem 1rem;
-                  margin-bottom: 0.5rem;
-                  border: 1px solid rgba(45, 212, 191, 0.15);
-                "
-              >
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    gap: 1rem;
-                    font-size: 0.95rem;
-                    color: #ffffff;
-                  "
-                >
-                  <span
-                    style="
-                      font-size: 1.2rem;
-                      min-width: 24px;
-                      text-align: center;
-                    "
-                    >🌐</span
-                  >
-                  <a
-                    href="https://github.com/ascender11"
-                    style="
-                      color: #ffffff;
-                      text-decoration: none;
-                      border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
-                    "
-                    >github.com/ascender11</a
-                  >
-                </div>
-              </li>
-              <li
-                style="
-                  background: rgba(255, 255, 255, 0.05);
-                  border-radius: 12px;
-                  padding: 0.8rem 1rem;
-                  margin-bottom: 0.5rem;
-                  border: 1px solid rgba(45, 212, 191, 0.15);
-                "
-              >
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    gap: 1rem;
-                    font-size: 0.95rem;
-                    color: #ffffff;
-                  "
-                >
-                  <span
-                    style="
-                      font-size: 1.2rem;
-                      min-width: 24px;
-                      text-align: center;
-                    "
-                    >📍</span
-                  >
-                  <span>Беларусь, Могилёв</span>
-                </div>
-              </li>
-            </ul>
-          </address>
+        <nav class="contacts">
+          <h2 class="section-title">Контакты</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a href="tel:+375333086376" class="contacts__link">
+                <span class="contacts__icon">📞</span>
+                +375 33 308 63 76
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="mailto:ascenderr11@gmail.com" class="contacts__link">
+                <span class="contacts__icon">✉️</span>
+                ascenderr11@gmail.com
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://github.com/ascender11" class="contacts__link">
+                <span class="contacts__icon">🌐</span>
+                github.com/ascender11
+              </a>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__link">
+                <span class="contacts__icon">📍</span>
+                <span class="contacts__text">Беларусь, Могилёв</span>
+              </div>
+            </li>
+          </ul>
         </nav>
 
         <section>
-          <h2
-            style="
-              font-size: 1.1rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              margin-bottom: 1.2rem;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-top: 0;
-            "
-          >
-            Технологии
-          </h2>
-          <ul
-            style="
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              gap: 0.5rem;
-              margin-top: 0.5rem;
-              list-style: none;
-              padding: 0;
-            "
-          >
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              TypeScript
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              JavaScript
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              Node.js
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              NestJS
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              React
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              REST API
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              HTML5
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              CSS3
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              TailwindCSS
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              Git
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              npm
-            </li>
-            <li
-              style="
-                background: #1e2b3f;
-                color: #e2e8f0;
-                padding: 0.5rem 1rem;
-                border-radius: 8px;
-                font-size: 0.85rem;
-                font-weight: 500;
-                text-align: center;
-                border: 1px solid #2dd4bf20;
-              "
-            >
-              pnpm
-            </li>
+          <h2 class="section-title">Технологии</h2>
+          <ul class="tech-stack">
+            <li class="tech-stack__item">TypeScript</li>
+            <li class="tech-stack__item">JavaScript</li>
+            <li class="tech-stack__item">Node.js</li>
+            <li class="tech-stack__item">NestJS</li>
+            <li class="tech-stack__item">React</li>
+            <li class="tech-stack__item">REST API</li>
+            <li class="tech-stack__item">HTML5</li>
+            <li class="tech-stack__item">CSS3</li>
+            <li class="tech-stack__item">TailwindCSS</li>
+            <li class="tech-stack__item">Git</li>
+            <li class="tech-stack__item">npm</li>
+            <li class="tech-stack__item">pnpm</li>
           </ul>
         </section>
 
         <section>
-          <h2
-            style="
-              font-size: 1.1rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              margin-bottom: 1.2rem;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-top: 0;
-            "
-          >
-            Языки
-          </h2>
-          <div
-            style="
-              background: rgba(255, 255, 255, 0.05);
-              border-radius: 12px;
-              padding: 1rem;
-              border: 1px solid rgba(45, 212, 191, 0.15);
-            "
-          >
-            <div
-              style="
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 0.9rem;
-                font-size: 0.95rem;
-                padding: 0.5rem;
-              "
-            >
-              <span style="font-weight: 600; color: #f8fafc">Русский</span>
-              <span
-                style="
-                  color: #cbd5e1;
-                  font-style: italic;
-                  background: rgba(255, 255, 255, 0.05);
-                  padding: 0.2rem 0.8rem;
-                  border-radius: 20px;
-                  border: 1px solid #2dd4bf20;
-                "
-                >Родной</span
-              >
+          <h2 class="section-title">Языки</h2>
+          <div class="languages">
+            <div class="languages__item languages__item--margin">
+              <span class="languages__name">Русский</span>
+              <span class="languages__level">Родной</span>
             </div>
-            <div
-              style="
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                font-size: 0.95rem;
-                padding: 0.5rem;
-              "
-            >
-              <span style="font-weight: 600; color: #f8fafc">Английский</span>
-              <span
-                style="
-                  color: #cbd5e1;
-                  font-style: italic;
-                  background: rgba(255, 255, 255, 0.05);
-                  padding: 0.2rem 0.8rem;
-                  border-radius: 20px;
-                  border: 1px solid #2dd4bf20;
-                "
-                >B1 (Intermediate)</span
-              >
+            <div class="languages__item">
+              <span class="languages__name">Английский</span>
+              <span class="languages__level">B1 (Intermediate)</span>
             </div>
           </div>
         </section>
       </aside>
 
-      <main
-        style="background: #ffffff; padding: 2rem 2.5rem; position: relative"
-      >
-        <header
-          style="
-            margin-bottom: 2rem;
-            background: #f8fafc;
-            padding: 1.5rem;
-            border-radius: 20px;
-            border: 1px solid #e2e8f0;
-          "
-        >
-          <h1
-            style="
-              font-size: 3rem;
-              font-weight: 800;
-              letter-spacing: -1px;
-              line-height: 1.1;
-              color: #0b1a33;
-              margin: 0;
-            "
-          >
-            Павел Цыкунов
-          </h1>
-          <p
-            style="
-              font-size: 1.3rem;
-              font-weight: 400;
-              color: #475569;
-              border-left: 5px solid #2dd4bf;
-              padding-left: 1rem;
-              margin-top: 0.5rem;
-              margin-bottom: 0;
-            "
-          >
-            Trainee Full-stack Developer
-          </p>
+      <main class="cv__main">
+        <header class="header">
+          <h1 class="header__title">Павел Цыкунов</h1>
+          <p class="header__subtitle">Trainee Full-stack Developer</p>
         </header>
 
-        <section
-          style="
-            background: #f8fafc;
-            padding: 1.5rem;
-            border-radius: 20px;
-            margin-bottom: 2rem;
-            border: 1px solid #e2e8f0;
-          "
-        >
-          <h2
-            style="
-              font-size: 1.2rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-bottom: 1.2rem;
-              margin-top: 0;
-            "
-          >
-            О себе
-          </h2>
-          <p
-            style="font-size: 1rem; color: #334155; line-height: 1.7; margin: 0"
-          >
+        <section class="about">
+          <h2 class="section-title section-title--main">О себе</h2>
+          <p class="about__text">
             Начинающий веб-разработчик с практическим опытом создания проектов
             на современном стеке JavaScript/TypeScript. Разрабатываю клиентскую
             и серверную части приложений, уделяю внимание чистоте кода и
@@ -584,56 +99,28 @@
           </p>
         </section>
 
-        <section style="margin-bottom: 2rem">
-          <h2
-            style="
-              font-size: 1.2rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-bottom: 1.2rem;
-            "
-          >
-            Пример кода
-          </h2>
-          <div
-            style="
-              background: #0f172a;
-              border-radius: 16px;
-              padding: 1.2rem;
-              overflow-x: auto;
-              border: 1px solid #334155;
-            "
-          >
+        <section class="code-example">
+          <h2 class="section-title section-title--main">Пример кода</h2>
+          <div class="code-example__block">
             <pre
-              style="
-                margin: 0;
-                font-family:
-                  &quot;Fira Code&quot;, &quot;Courier New&quot;, monospace;
-                font-size: 0.9rem;
-                color: #e2e8f0;
-              "
-            ><code>// Middleware для логирования запросов (NestJS)
-<span style="color: #93c5fd;">import</span> { Injectable, NestMiddleware } from <span style="color: #a5d6ff;">'@nestjs/common'</span>;
-<span style="color: #93c5fd;">import</span> { Request, Response, NextFunction } from <span style="color: #a5d6ff;">'express'</span>;
+              class="code-example__pre"
+            ><code><span class="code-example__keyword">import</span> { Injectable, NestMiddleware } from <span class="code-example__string">'@nestjs/common'</span>;
+<span class="code-example__keyword">import</span> { Request, Response, NextFunction } from <span class="code-example__string">'express'</span>;
 
-<span style="color: #6ee7b7;">@Injectable</span>()
-<span style="color: #93c5fd;">export class</span> <span style="color: #ffb347;">LoggerMiddleware</span> <span style="color: #93c5fd;">implements</span> NestMiddleware {
-  <span style="color: #93c5fd;">private readonly</span> excludedPaths: <span style="color: #ffb347;">string</span>[] = [<span style="color: #a5d6ff;">'/health'</span>, <span style="color: #a5d6ff;">'/metrics'</span>];
+<span class="code-example__decorator">@Injectable</span>()
+<span class="code-example__keyword">export class</span> <span class="code-example__class">LoggerMiddleware</span> <span class="code-example__keyword">implements</span> NestMiddleware {
+  <span class="code-example__keyword">private readonly</span> excludedPaths: <span class="code-example__class">string</span>[] = [<span class="code-example__string">'/health'</span>, <span class="code-example__string">'/metrics'</span>];
 
-  <span style="color: #93c5fd;">use</span>(req: Request, res: Response, next: NextFunction) {
-    <span style="color: #93c5fd;">const</span> { method, originalUrl, ip } = req;
+  <span class="code-example__keyword">use</span>(req: Request, res: Response, next: NextFunction) {
+    <span class="code-example__keyword">const</span> { method, originalUrl, ip } = req;
     
-    <span style="color: #93c5fd;">if</span> (<span style="color: #ffb347;">!</span><span style="color: #c4b5fd;">this</span>.excludedPaths.includes(originalUrl)) {
-      <span style="color: #c4b5fd;">console</span>.log(<span style="color: #a5d6ff;">`[LOG] </span>${method}<span style="color: #a5d6ff;"> </span>${originalUrl}<span style="color: #a5d6ff;"> - IP: </span>${ip}<span style="color: #a5d6ff;">`</span>);
+    <span class="code-example__keyword">if</span> (<span class="code-example__keyword">!</span><span class="code-example__this">this</span>.excludedPaths.includes(originalUrl)) {
+      <span class="code-example__this">console</span>.log(<span class="code-example__string">`[LOG] </span>${method}<span class="code-example__string"> </span>${originalUrl}<span class="code-example__string"> - IP: </span>${ip}<span class="code-example__string">`</span>);
       
-      <span style="color: #93c5fd;">const</span> start = <span style="color: #ffb347;">Date</span>.now();
-      res.on(<span style="color: #a5d6ff;">'finish'</span>, () => {
-        <span style="color: #93c5fd;">const</span> duration = <span style="color: #ffb347;">Date</span>.now() - start;
-        <span style="color: #c4b5fd;">console</span>.log(<span style="color: #a5d6ff;">`[RES] </span>${method}<span style="color: #a5d6ff;"> </span>${originalUrl}<span style="color: #a5d6ff;"> - </span>${res.statusCode}<span style="color: #a5d6ff;"> - </span>${duration}<span style="color: #a5d6ff;">ms`</span>);
+      <span class="code-example__keyword">const</span> start = <span class="code-example__class">Date</span>.now();
+      res.on(<span class="code-example__string">'finish'</span>, () => {
+        <span class="code-example__keyword">const</span> duration = <span class="code-example__class">Date</span>.now() - start;
+        <span class="code-example__this">console</span>.log(<span class="code-example__string">`[RES] </span>${method}<span class="code-example__string"> </span>${originalUrl}<span class="code-example__string"> - </span>${res.statusCode}<span class="code-example__string"> - </span>${duration}<span class="code-example__string">ms`</span>);
       });
     }
     
@@ -641,340 +128,99 @@
   }
 }</code></pre>
           </div>
-          <p
-            style="
-              font-size: 0.9rem;
-              color: #64748b;
-              margin-top: 0.5rem;
-              font-style: italic;
-            "
-          >
+          <p class="code-example__caption">
             Пример middleware для логирования HTTP запросов в NestJS приложении
           </p>
         </section>
 
-        <section style="margin-bottom: 2rem">
-          <h2
-            style="
-              font-size: 1.2rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-bottom: 1.2rem;
-            "
-          >
-            Проекты
-          </h2>
-          <div
-            style="
-              display: grid;
-              grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-              gap: 1.5rem;
-              margin: 1.5rem 0;
-            "
-          >
-            <article
-              style="
-                background: #ffffff;
-                border-radius: 16px;
-                padding: 1.5rem;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-                border: 1px solid #e2e8f0;
-              "
-            >
-              <h3
-                style="
-                  font-size: 1.2rem;
-                  font-weight: 700;
-                  color: #0b1a33;
-                  margin-bottom: 0.5rem;
-                  margin-top: 0;
-                "
-              >
-                Command Execution Utility
-              </h3>
-              <p
-                style="
-                  color: #475569;
-                  font-size: 0.9rem;
-                  margin-bottom: 1rem;
-                  line-height: 1.5;
-                "
-              >
+        <section class="projects">
+          <h2 class="section-title section-title--main">Проекты</h2>
+          <div class="projects__grid">
+            <article class="project-card">
+              <h3 class="project-card__title">Command Execution Utility</h3>
+              <p class="project-card__description">
                 Node.js/TypeScript утилита для сжатия видео через FFmpeg.
                 Реализована обработка ошибок, прогресс-бар и параллельное
                 выполнение.
               </p>
-              <div
-                style="
-                  display: flex;
-                  gap: 0.5rem;
-                  flex-wrap: wrap;
-                  margin-bottom: 1rem;
-                "
-              >
-                <span
-                  style="
-                    background: #e2e8f0;
-                    color: #0b1a33;
-                    padding: 0.2rem 0.6rem;
-                    border-radius: 12px;
-                    font-size: 0.7rem;
-                  "
-                  >Node.js</span
-                >
-                <span
-                  style="
-                    background: #e2e8f0;
-                    color: #0b1a33;
-                    padding: 0.2rem 0.6rem;
-                    border-radius: 12px;
-                    font-size: 0.7rem;
-                  "
-                  >TypeScript</span
-                >
-                <span
-                  style="
-                    background: #e2e8f0;
-                    color: #0b1a33;
-                    padding: 0.2rem 0.6rem;
-                    border-radius: 12px;
-                    font-size: 0.7rem;
-                  "
-                  >FFmpeg</span
-                >
+              <div class="project-card__tags">
+                <span class="project-card__tag">Node.js</span>
+                <span class="project-card__tag">TypeScript</span>
+                <span class="project-card__tag">FFmpeg</span>
               </div>
               <a
                 href="https://github.com/ascender11/command-executoin-utility"
-                style="
-                  display: inline-block;
-                  background: #0b1a33;
-                  color: white;
-                  text-decoration: none;
-                  padding: 0.5rem 1rem;
-                  border-radius: 8px;
-                  font-size: 0.85rem;
-                  font-weight: 500;
-                  border: 1px solid #2dd4bf20;
-                "
-                >🔗 Исходный код</a
+                class="project-card__link"
               >
+                🔗 Исходный код
+              </a>
             </article>
 
-            <article
-              style="
-                background: #ffffff;
-                border-radius: 16px;
-                padding: 1.5rem;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-                border: 1px solid #e2e8f0;
-              "
-            >
-              <h3
-                style="
-                  font-size: 1.2rem;
-                  font-weight: 700;
-                  color: #0b1a33;
-                  margin-bottom: 0.5rem;
-                  margin-top: 0;
-                "
-              >
-                Top API
-              </h3>
-              <p
-                style="
-                  color: #475569;
-                  font-size: 0.9rem;
-                  margin-bottom: 1rem;
-                  line-height: 1.5;
-                "
-              >
+            <article class="project-card">
+              <h3 class="project-card__title">Top API</h3>
+              <p class="project-card__description">
                 REST API на NestJS с Prisma ORM, JWT аутентификацией, валидацией
                 DTO и документацией Swagger.
               </p>
-              <div
-                style="
-                  display: flex;
-                  gap: 0.5rem;
-                  flex-wrap: wrap;
-                  margin-bottom: 1rem;
-                "
-              >
-                <span
-                  style="
-                    background: #e2e8f0;
-                    color: #0b1a33;
-                    padding: 0.2rem 0.6rem;
-                    border-radius: 12px;
-                    font-size: 0.7rem;
-                  "
-                  >NestJS</span
-                >
-                <span
-                  style="
-                    background: #e2e8f0;
-                    color: #0b1a33;
-                    padding: 0.2rem 0.6rem;
-                    border-radius: 12px;
-                    font-size: 0.7rem;
-                  "
-                  >Prisma</span
-                >
-                <span
-                  style="
-                    background: #e2e8f0;
-                    color: #0b1a33;
-                    padding: 0.2rem 0.6rem;
-                    border-radius: 12px;
-                    font-size: 0.7rem;
-                  "
-                  >PostgreSQL</span
-                >
+              <div class="project-card__tags">
+                <span class="project-card__tag">NestJS</span>
+                <span class="project-card__tag">Prisma</span>
+                <span class="project-card__tag">PostgreSQL</span>
               </div>
               <a
                 href="https://github.com/ascender11/top-api"
-                style="
-                  display: inline-block;
-                  background: #0b1a33;
-                  color: white;
-                  text-decoration: none;
-                  padding: 0.5rem 1rem;
-                  border-radius: 8px;
-                  font-size: 0.85rem;
-                  font-weight: 500;
-                  border: 1px solid #2dd4bf20;
-                "
-                >🔗 Исходный код</a
+                class="project-card__link"
               >
+                🔗 Исходный код
+              </a>
             </article>
           </div>
         </section>
 
-        <section style="margin: 2rem 0 1.5rem">
-          <h2
-            style="
-              font-size: 1.2rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-bottom: 1.2rem;
-            "
-          >
-            Образование
-          </h2>
-          <div style="display: flex; flex-direction: column; gap: 1rem">
-            <article
-              style="
-                background: #f8fafc;
-                border-radius: 12px;
-                padding: 1.2rem;
-                border-left: 4px solid #2dd4bf;
-                border: 1px solid #e2e8f0;
-              "
-            >
-              <h3
-                style="
-                  font-weight: 700;
-                  color: #0b1a33;
-                  font-size: 1.1rem;
-                  margin: 0;
-                "
-              >
-                Программная инженерия
-              </h3>
-              <p style="color: #475569; font-size: 0.9rem; margin: 0.3rem 0">
+        <section class="education">
+          <h2 class="section-title section-title--main">Образование</h2>
+          <div class="education__list">
+            <article class="education-item">
+              <h3 class="education-item__title">Программная инженерия</h3>
+              <p class="education-item__place">
                 Белорусско-Российский университет
               </p>
-              <time
-                style="
-                  display: inline-block;
-                  background: #2dd4bf;
-                  color: #0b1a33;
-                  padding: 0.2rem 1rem;
-                  border-radius: 20px;
-                  font-size: 0.8rem;
-                  font-weight: 600;
-                "
-                datetime="2024"
-                title="Обучение с 2024 года по настоящее время"
+              <time class="education-item__date" datetime="2024"
                 >2024 — н.в. (2 курс)</time
               >
             </article>
           </div>
         </section>
 
-        <section style="margin-bottom: 2rem">
-          <h2
-            style="
-              font-size: 1.2rem;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              color: #2dd4bf;
-              border-bottom: 2px solid rgba(45, 212, 191, 0.3);
-              padding-bottom: 0.6rem;
-              margin-bottom: 1.2rem;
-            "
-          >
+        <section class="courses">
+          <h2 class="section-title section-title--main">
             Курсы и самообразование
           </h2>
-          <div
-            style="
-              background: #f8fafc;
-              border-radius: 16px;
-              padding: 1.5rem;
-              border: 1px solid #e2e8f0;
-            "
-          >
-            <ul style="list-style: none; padding: 0; margin: 0">
-              <li
-                style="
-                  padding: 0.7rem 0;
-                  padding-left: 1.8rem;
-                  position: relative;
-                  border-bottom: 1px dashed #e2e8f0;
-                "
-              >
-                <span style="position: absolute; left: 0; color: #2dd4bf"
-                  >→</span
+          <div class="courses__content">
+            <ul class="courses__list">
+              <li class="courses__item">
+                <span class="courses__arrow">→</span>
+                <span class="courses__text"
+                  ><strong>TypeScript:</strong> глубокое изучение системы типов,
+                  утилит и декораторов (официальная документация, TypeScript
+                  Deep Dive)</span
                 >
-                <strong>TypeScript:</strong> глубокое изучение системы типов,
-                утилит и декораторов (официальная документация, TypeScript Deep
-                Dive)
               </li>
-              <li
-                style="
-                  padding: 0.7rem 0;
-                  padding-left: 1.8rem;
-                  position: relative;
-                  border-bottom: 1px dashed #e2e8f0;
-                "
-              >
-                <span style="position: absolute; left: 0; color: #2dd4bf"
-                  >→</span
+              <li class="courses__item">
+                <span class="courses__arrow">→</span>
+                <span class="courses__text"
+                  ><strong>NestJS:</strong> создание REST API, работа с
+                  модулями, middleware, guards, pipes (документация,
+                  видеоуроки)</span
                 >
-                <strong>NestJS:</strong> создание REST API, работа с модулями,
-                middleware, guards, pipes (документация, видеоуроки)
               </li>
-              <li
-                style="
-                  padding: 0.7rem 0;
-                  padding-left: 1.8rem;
-                  position: relative;
-                  border-bottom: none;
-                "
-              >
-                <span style="position: absolute; left: 0; color: #2dd4bf"
-                  >→</span
+              <li class="courses__item">
+                <span class="courses__arrow">→</span>
+                <span class="courses__text"
+                  ><strong>Практика:</strong> разработка pet-проектов,
+                  рефакторинг кода, изучение best practices и архитектурных
+                  паттернов</span
                 >
-                <strong>Практика:</strong> разработка pet-проектов, рефакторинг
-                кода, изучение best practices и архитектурных паттернов
               </li>
             </ul>
           </div>
@@ -982,30 +228,11 @@
       </main>
     </div>
 
-    <footer
-      style="
-        max-width: 1100px;
-        width: 100%;
-        margin-top: 1.5rem;
-        text-align: center;
-        color: #94a3b8;
-        font-size: 0.9rem;
-        padding: 1rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-      "
-    >
-      <p style="margin: 0">
+    <footer class="cv__footer">
+      <p class="footer__text">
         © 2026 Павел Цыкунов · CV обновлено
         <time datetime="2026-02-18">18 февраля 2026</time> ·
-        <a
-          href="https://github.com/ascender11"
-          style="
-            color: #94a3b8;
-            text-decoration: none;
-            border-bottom: 1px dotted #94a3b8;
-          "
-          >GitHub</a
-        >
+        <a href="https://github.com/ascender11" class="footer__link">GitHub</a>
       </p>
     </footer>
   </body>
